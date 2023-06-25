@@ -296,8 +296,7 @@ html {
 #slider {
   position: relative;
   margin-top: 46px;
-  padding-top: 50%;
-  background: url('/assets/img/Slider/slider2.jpg') top center/ cover no-repeat;
+  /* background: url('/assets/img/Slider/slider2.jpg') top center/ cover no-repeat; */
 }
 
 
