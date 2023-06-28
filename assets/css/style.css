@@ -57,8 +57,13 @@ html {
   margin-top: 8px !important;
 }
 
+.mt-16 {
+  margin-top: 16px !important;
+}
+
 
 .place-buy-btn {
+      font-size: 15px;
       text-decoration: none;
       background-color: black;
       padding: 9px 16px;
@@ -277,19 +282,38 @@ html {
 
 /* End : Nav */
 
-#header .search-btn {
+#header .search-btn,
+#header .mobile-menu-btn {
   float: right;
+  padding: 0 21px;
 }
 
+ .menu-icon ,
 #header .search-icon {
   color: #fff;
   font-size: 20px;
   line-height: 46px;
-  padding: 0 21px;
 }
+
+#header .mobile-menu-btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: none;
+   }
+
+
 #header .search-btn:hover {
   background-color: #f44336;
   cursor: pointer;
+}
+
+ .mobile-menu-btn:hover {
+  background-color: #ccc;
+}
+
+.mobile-menu-btn:hover .menu-icon {
+  color: #000;
 }
 
 /* Slider section */
@@ -332,9 +356,12 @@ html {
 /* About & Member */
 #content .content-section {
   width: 800px;
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
   padding: 64px 0 112px;
+  padding-left: 16px;
+   padding-right: 16px;
   
 }
 
@@ -378,7 +405,6 @@ html {
 
 #content .member-img {
   width: 154px;
-  height: 154px;
   margin-bottom: 15px;
   border-radius: 4px;
   
@@ -426,7 +452,7 @@ html {
 
    /* Places */
     .places-list {
-      margin-top: 32px;
+      margin-top: 16px;
       font-size: 15px;
     }
 
@@ -474,7 +500,15 @@ html {
      .contact-info {
       font-size: 18px;
       line-height: 1.5;
-      
+      margin-bottom: 16px;
+     }
+
+     .contact-info a {
+      color: #101aef;
+      opacity: 0.8;
+     }
+     .contact-info a:hover {
+      opacity: 1;
      }
 
      .contact-form {
