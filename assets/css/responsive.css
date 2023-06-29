@@ -1,19 +1,24 @@
 /* Pc */
-@media (min-width: 1024px) {
+@media (min-width: 64em) {
 }
 
 /* Tablet && Mobile */
-@media (max-width: 1022px) {
+@media (max-width: 63.938em) {
   .place-buy-btn {
     padding: 15px 16px;
   }
 
   .contact-form .form-control {
-    padding: 15px;
+    padding: 14px;
+    font-size: 16px;
   }
 
   .contact-form .button-submit {
-        padding: 16px 19px;
+        padding: 14px 19px;
+  }
+  
+  .contact-submit-font {
+    font-size: 17px;
   }
 
   #footter .social-list a{
@@ -29,7 +34,7 @@
 
 
 /* Tablet */
-@media (min-width: 740px) and (max-width: 1023px) {
+@media (min-width: 46.25em) and (max-width: 63.938em) {
   
   #footter .social-list a {
     font-size: 48px;
@@ -50,7 +55,7 @@
 }
 
 /* Mobile */
-@media (max-width: 739px) {
+@media (max-width: 46.188em) {
   .s-mt-8 {
     margin-top: 8px !important;
   }
